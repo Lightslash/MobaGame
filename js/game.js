@@ -190,13 +190,13 @@ function moveEventsInitialize(offset){
                 step: function(){
                     checkForBonusOrMalus();
                     //Si le personnage sort du terrain, on arrête l'animation et on le renvoit de l'autre côté
-                    if(position.top > 400){
+                    if(position.top > 425){
                         character.stop();
                     }
                 }
             });
             //Si le personnage sort du terrain, on arrête l'animation et on le renvoit de l'autre côté
-            if(position.top > 400)
+            if(position.top > 420)
                 character.offset({top : 50});
         }
 
