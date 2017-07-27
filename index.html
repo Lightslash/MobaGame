@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>MobaGame</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<div id="gameMenu">
+		<center>
+			<img id="logoMobalib" src="img/MOBALIB_Mascotte_couleur.png">
+		</center>
+
+		<h2 class="gameTitle">MOBAGAME</h2>
+		<p class="gameTitle">By Pol CHAMBOST</p>
+		
+		<div id="menu">
+			<div class="input-group">
+				<input id="usernameInput" type="text" class="form-control" placeholder="Entrez votre nom" aria-describedby="basic-addon1">
+			</div>
+			<input type="color" id="html5colorpicker" value="#ffffff" style="width:243px;">
+			<br>
+			<button class="startPlaying btn">Commencer</button>
+			<br>
+		</div>
+	</div>
+
+	<div id="gameCanvasWithOffset">
+		<h2 class="gameTitleBis">MOBAGAME</h2>
+		<div id="gameCanvasWithoutOffset">
+			<div id="score">
+				<span id="actualScore">Score: 0</span>
+				<br>
+				<span id="bestScore">Meilleur score: 0</span>
+			</div>
+			<ul id="bonus"></ul>
+			<ul id="malus"></ul>
+			<div id="character">
+				<object id="characterSVG" data="img/MobaPiouPiou.svg" width="50" height="50" type="image/svg+xml"></object>
+				<br>
+				<span id="username"></span>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+	<script type="js/canvasjs.min.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>

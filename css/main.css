@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "MobaFont";
+  src: url('../font/CaviarDreams.ttf');
+}
+
+body{
+  background-color: #04a29c;
+}
+
+#gameMenu{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+}
+
+#logoMobalib{
+  width: 450px;
+  height: 450px;
+  text-align: center;
+}
+
+.gameTitle{
+  text-align: center;
+  font-family: "MobaFont", sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+h2.gameTitle{
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+p.gameTitle{
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+#menu{
+  text-align: center;
+}
+
+#menu .form-control{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#menu>*{
+  margin-bottom: 15px;
+}
+
+#menu>#html5colorpicker{
+  background-color: #04a29c;
+  height: 55px;
+  position: relative;
+  border-color: #04a29c;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 75px 1px black;
+}
+
+.btn {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #04a29c;
+  border-color: #04a29c;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 75px 1px black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  background-size: cover;
+  color: white;
+  margin-bottom: 35px;
+  width: 250px;
+  height: 55px;
+  box-shadow: 
+}
+
+#gameCanvasWithOffset{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  width: 1000px;
+  height: 850px;
+}
+
+#gameCanvasWithoutOffset{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 750px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 75px 1px black;
+}
+
+#character{
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-left: 400px;
+  margin-top: 335px;
+}
+
+h2.gameTitleBis{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 390px;
+  font-size: 40px;
+  text-align: center;
+  font-family: "MobaFont", sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#score{
+  margin-left: 725px;
+  font-family: "MobaFont", sans-serif;
+  display: block;
+  color: #ffffff;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+li{
+  position: absolute;
+  list-style: none;
+  margin-left: 1px;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 0.5px black;
+}
+
+#bonus>li{
+  background-color: green;
+  position: absolute;
+}
+
+#malus>li{
+  background-color: red;
+  position: absolute;
+}
+
+#moveDown{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
